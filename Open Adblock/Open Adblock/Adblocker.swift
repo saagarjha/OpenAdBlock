@@ -14,6 +14,7 @@ class Adblocker {
     var ruleNames = [String]()
     
     init() {
+        copyFile()
         let data = NSData(contentsOfURL: NSURL(fileURLWithPath: ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!))
         var jsonData: AnyObject?
         do {
@@ -28,6 +29,19 @@ class Adblocker {
                     ruleNames.append(rule as! String)
                     //print(website)
                 }
+            }
+        }
+    }
+    
+    func copyFile() {
+        let bundlePath = ((NSBundle.mainBundle().resourcePath! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!
+        let documentsPath = ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!
+        let fileManager = NSFileManager.defaultManager()
+        if !fileManager.fileExistsAtPath(documentsPath) {
+            do {
+                try fileManager.copyItemAtPath(bundlePath, toPath: documentsPath)
+            } catch _ {
+                assertionFailure("Could not copy blockerList")
             }
         }
     }

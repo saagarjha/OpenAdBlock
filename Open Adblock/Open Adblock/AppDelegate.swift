@@ -15,16 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let bundlePath = ((NSBundle.mainBundle().resourcePath! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!
-        let documentsPath = ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!
-        let fileManager = NSFileManager.defaultManager()
-        if !fileManager.fileExistsAtPath(documentsPath) {
-            do {
-                try fileManager.copyItemAtPath(bundlePath, toPath: documentsPath)
-            } catch _ {
-                assertionFailure("Could not copy blockerList")
-            }
-        }
         Adblocker.sharedInstance // For testing the Adblocker
         return true
     }
