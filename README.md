@@ -31,6 +31,7 @@ If you wish to join the chat room, you can so here [![Gitter](https://badges.git
  - Martin Turek ([@MrSp0ck](http://github.com/MrSp0ck))
  - Jeremy Gillespie ([@jeremyskateboard](http://github.com/jeremyskateboard))
  - Nicolas Da Mutten ([@cleverer](http://github.com/cleverer))
+ - Jason Piper ([@Xaositek](http://github.com/Xaositek))
 
 -----------
 
