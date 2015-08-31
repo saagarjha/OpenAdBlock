@@ -15,22 +15,22 @@ class Adblocker {
     
     init() {
         copyFile()
-        let data = NSData(contentsOfURL: NSURL(fileURLWithPath: ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!))
-        var jsonData: AnyObject?
-        do {
-           jsonData = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
-        } catch _ {
-            assertionFailure("Error parsing JSON")
-        }
-        //print(jsonData)
-        for json in jsonData as! [AnyObject] {
-            if let trigger = (json as! [String: AnyObject])["trigger"] {
-                if let rule = (trigger as! [String: AnyObject])["url-filter"] {
-                    ruleNames.append(rule as! String)
-                    //print(website)
-                }
-            }
-        }
+//        let data = NSData(contentsOfURL: NSURL(fileURLWithPath: ((NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first! as NSString).stringByAppendingPathComponent("blockerList") as NSString).stringByAppendingPathExtension("json")!))
+//        var jsonData: AnyObject?
+//        do {
+//           jsonData = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments)
+//        } catch _ {
+//            assertionFailure("Error parsing JSON")
+//        }
+//        //print(jsonData)
+//        for json in jsonData as! [AnyObject] {
+//            if let trigger = (json as! [String: AnyObject])["trigger"] {
+//                if let rule = (trigger as! [String: AnyObject])["url-filter"] {
+//                    ruleNames.append(rule as! String)
+//                    //print(website)
+//                }
+//            }
+//        }
     }
     
     func copyFile() {
