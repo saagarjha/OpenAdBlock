@@ -34,7 +34,7 @@ class SettingsTableViewController: UITableViewController {
     
     @IBAction func blockAds(sender: AnyObject) {
         NSUserDefaults(suiteName: "group.openadblock.openadblock")!.setBool((sender as! UISwitch).on, forKey: "blockAds")
-        SFContentBlockerManager.reloadContentBlockerWithIdentifier("\(NSBundle.mainBundle().bundleIdentifier!).openadblockextension", completionHandler: nil)
+        SFContentBlockerManager.reloadContentBlockerWithIdentifier("\(NSBundle.mainBundle().bundleIdentifier!).contentblockerextension", completionHandler: nil)
     }
     
     @IBAction func blockAnalytics(sender: AnyObject) {
