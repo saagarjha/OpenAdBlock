@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="15A263e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="69u-Xz-TZY">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Action View Controller-->
+        <scene sceneID="RGd-Dj-JNS">
+            <objects>
+                <viewController id="69u-Xz-TZY" customClass="ActionViewController" customModule="Adblock_Action" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N3S-cl-DFN"/>
+                        <viewControllerLayoutGuide type="bottom" id="NHf-c4-MPx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FXm-IW-g5k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="g6t-O1-Wfd">
+                                <rect key="frame" x="-4" y="20" width="328" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Whitelist" id="wvj-bz-LBm">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="4Sz-cu-GLk">
+                                            <connections>
+                                                <action selector="done" destination="69u-Xz-TZY" id="kx8-g7-rKS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xFq-Aw-sAb">
+                                <rect key="frame" x="-4" y="64" width="328" height="504"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="whitelistedWebsite" id="S3g-Zl-u6D">
+                                        <rect key="frame" x="0.0" y="28" width="328" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S3g-Zl-u6D" id="2mm-pO-Dhe">
+                                            <rect key="frame" x="0.0" y="0.0" width="328" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <animations/>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="69u-Xz-TZY" id="UOw-Hm-2Ls"/>
+                                    <outlet property="delegate" destination="69u-Xz-TZY" id="8Uj-h3-vF1"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NHf-c4-MPx" firstAttribute="top" secondItem="xFq-Aw-sAb" secondAttribute="bottom" id="1rr-9f-gj7"/>
+                            <constraint firstItem="xFq-Aw-sAb" firstAttribute="leading" secondItem="FXm-IW-g5k" secondAttribute="leadingMargin" constant="-20" id="4Ks-8g-Fz5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xFq-Aw-sAb" secondAttribute="trailing" constant="-20" id="9tM-cw-FLE"/>
+                            <constraint firstItem="xFq-Aw-sAb" firstAttribute="top" secondItem="g6t-O1-Wfd" secondAttribute="bottom" id="hRd-NM-IIV"/>
+                            <constraint firstItem="xFq-Aw-sAb" firstAttribute="top" secondItem="g6t-O1-Wfd" secondAttribute="bottom" id="leo-AD-Omf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g6t-O1-Wfd" secondAttribute="trailing" constant="-20" id="pGg-I2-K1H"/>
+                            <constraint firstItem="g6t-O1-Wfd" firstAttribute="leading" secondItem="FXm-IW-g5k" secondAttribute="leadingMargin" constant="-20" id="ta2-ke-sD1"/>
+                            <constraint firstItem="g6t-O1-Wfd" firstAttribute="top" secondItem="N3S-cl-DFN" secondAttribute="bottom" id="xwG-uM-h9L"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="whitelistedWebsitesTableView" destination="xFq-Aw-sAb" id="vFd-QZ-VSG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d50-1z-49P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="535" y="-140"/>
+        </scene>
+    </scenes>
+</document>

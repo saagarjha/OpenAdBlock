@@ -12,6 +12,7 @@ class Adblocker {
     static let sharedInstance = Adblocker()
     
     var ruleNames = [String]()
+    var whitelist = [String]()
     
     init() {
         copyFile()
@@ -44,5 +45,25 @@ class Adblocker {
                 assertionFailure("Could not copy blockerList")
             }
         }
+    }
+    
+    func getWhitelist() -> [String] {
+        return whitelist
+    }
+    
+    func addWhitelistedWebsite(url: String) {
+        whitelist.append(url)
+    }
+    
+    func containsWhitelistedWebsite(url: String) -> Bool {
+        return whitelist.indexOf(url) != nil
+    }
+    
+    func removeWhitelistedWebsite(url: String) {
+        whitelist.removeAtIndex(whitelist.indexOf(url)!)
+    }
+    
+    func setWhitelisted(url: String, whitelist toWhitelist: Bool) {
+        
     }
 }
