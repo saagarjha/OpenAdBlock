@@ -22,7 +22,8 @@ If you wish to join the chat room, you can so here [![Gitter](https://badges.git
  - Add content filter options
  - Settings for content filtering
  - Analytics blocking
- - Safari Extension (i.e. the popup thing)
+ - Safari Extension
+ 
 ---------
 
 ### Contributors:
