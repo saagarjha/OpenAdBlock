@@ -1,6 +1,6 @@
-# Open Adblock 
+# OpenAdblock 
 
-<div align="center"><img src ="http://i.imgur.com/xDeBzhu.png" /></div>
+<div align="center"><img src ="http://i.imgur.com/4sa7h7D.png" /></div>
 
 <p align="center">
 <a href="http://opensource.org/licenses/Apache-2.0">
@@ -18,11 +18,8 @@ If you wish to join the chat room, you can so here [![Gitter](https://badges.git
 
 --------------
 ### To-Do:
- - ~~Setup iTunes Connect~~
- - Add content filter options
- - Settings for content filtering
- - Analytics blocking
- - Safari Extension
+ - Improve GUI and fix bugs
+ - Improve README
  
 ---------
 
@@ -36,8 +33,8 @@ If you wish to join the chat room, you can so here [![Gitter](https://badges.git
 
 -----------
 
-### How to install the app
-Since we do not have iTunes connect setup yet, here is how to install the app at the moment. Keep in mind you will have to make a 3.6 GB download and have about 8GB of free space on your HD.
+### How to install the app (works for iPhone 5 and 5c!)
+Since we haven't released OpenAdBlock to the App Store yet, here's how to install the app at the moment. Keep in mind you will have to make a 3.6 GB download and have about 8GB of free space on your HD.
 
 1. Download Xcode 7 from [here](https://developer.apple.com/xcode/downloads/).
 2. Install it (and the Developer Tools).
