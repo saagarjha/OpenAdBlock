@@ -1,15 +1,15 @@
 //
-//  OpenAdBlockTests.swift
-//  OpenAdBlockTests
+//  OpenAdblockTests.swift
+//  OpenAdblockTests
 //
-//  Created by Saagar Jha on 9/29/15.
-//  Copyright © 2015 OpenAdblock Team. All rights reserved.
+//  Created by Saagar Jha on 7/22/16.
+//  Copyright © 2016 Saagar Jha. All rights reserved.
 //
 
 import XCTest
-@testable import OpenAdBlock
+@testable import OpenAdblock
 
-class OpenAdBlockTests: XCTestCase {
+class OpenAdblockTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -28,7 +28,7 @@ class OpenAdBlockTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

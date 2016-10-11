@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:OpenAdBlock.xcodeproj">
+      location = "self:OpenAdblock.xcodeproj">
    </FileRef>
 </Workspace>

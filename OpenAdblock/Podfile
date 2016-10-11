@@ -1,0 +1,29 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ContentBlocker' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ContentBlocker
+
+end
+
+target 'OpenAdblock' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OpenAdblock
+  pod 'fishhook'
+
+  target 'OpenAdblockTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OpenAdblockUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
