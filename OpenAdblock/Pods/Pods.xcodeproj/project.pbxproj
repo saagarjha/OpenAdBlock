@@ -10,23 +10,23 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>00826B7F846A3940DCECC070EBF27BB4</key>
+		<key>0120BDF266AD30360A395F0541D02AD7</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7D8212F59A2EF31CBDD81228B261623F</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>01EBC7FFB1511BAE17A643058B14BB20</key>
 		<dict>
 			<key>fileRef</key>
-			<string>46165DD9BBEF2F31C0B83994A44B0343</string>
+			<string>622EC83EE2AACCCF13EFAFDA92445EEE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -51,18 +51,37 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>08230DDEA34D66BD237B094B0B59DFC0</key>
+		<key>05B1601CCA3FF58A3D2535B5AB2B9C4A</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>7F0C64B3E0175466851EE2AD2D808238</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-OpenAdblock-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>080DEDF2B000BCF9643F04091A61FC14</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6E902B4A4476BF67C676E492F40FA736</string>
+			<key>buildPhases</key>
+			<array>
+				<string>82138B89FB3FB7C99954E5FAED64D584</string>
+				<string>3AB506DAC570BF7A6048C9D512A89F30</string>
+				<string>3A1813558F451FDA4B4DF1D4098D2BB3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-OpenAdBlockTests</string>
+			<key>productName</key>
+			<string>Pods-OpenAdBlockTests</string>
+			<key>productReference</key>
+			<string>69A3270B6CC15D2E378EE1028041B74A</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>09AB3A063BFCA561B6CB92B9D21D8A7D</key>
 		<dict>
@@ -85,35 +104,20 @@
 			<key>productName</key>
 			<string>Pods-ContentBlocker</string>
 			<key>productReference</key>
-			<string>0ABFB99616BA67737C85DCCCE17CFD4F</string>
+			<string>C0DA3D2E4A0BCC074FEDB45A0427A529</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>0ABFB99616BA67737C85DCCCE17CFD4F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_ContentBlocker.framework</string>
-			<key>path</key>
-			<string>Pods-ContentBlocker.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0B81EE69904182B4455E35876BB928F5</key>
+		<key>0AC75188622C3D0364BC81BEBA780525</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text</string>
 			<key>path</key>
-			<string>Pods-OpenAdblock-umbrella.h</string>
+			<string>Pods-OpenAdBlockTests-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -130,34 +134,6 @@
 			<string>PBXHeadersBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>0C3EDC213F062A4B92C03D9A58025F69</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_OpenAdblock.framework</string>
-			<key>path</key>
-			<string>Pods-OpenAdblock.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>0C976A2E5EBFBD0A2FE1BAC00DF54AA5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ContentBlocker.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>0D9A7B25DC93826B7A4EE83528282D7C</key>
 		<dict>
@@ -226,86 +202,18 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>0F4DAC493E080329BBF2527D78520986</key>
+		<key>0F5AF9A762D5865D96B0D4678708ACDB</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>77F2EF98BF0AF402F1A4532B216CFCB8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockUITests/Pods-OpenAdblockUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_OpenAdblockUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0F69208D91574C744C07F76622A07C98</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>80CA32B627B3E8CF446BA070CFB915F9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockUITests-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>10C60375B9F8E694202E97A77499F60F</key>
 		<dict>
@@ -367,10 +275,23 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>115E98E869D9E59861AEE9D119AFA5B0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>131B7D2F29FB154E14A26D95EFFB28C3</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>0C976A2E5EBFBD0A2FE1BAC00DF54AA5</string>
+			<string>99A689523E3B4789AD808DF733DA8DA2</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -435,16 +356,27 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>14E237116D66C3E7D577175BAE359A32</key>
+		<key>14F9D5BA0DFA8F1AD9B4362FE1B6B425</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>EC23FC50C275CAFCB43C7414AC94B576</string>
+				<string>9CFFF50F5B46DE1F3CD3A3632D86CC1F</string>
+				<string>B5D5935E204D44E23ED9BA485C38716C</string>
+				<string>214047E17823C7014FF0726850BE2E68</string>
+				<string>2A2837CD4AB95E6BD1181D461AB28126</string>
+				<string>1C5834AEA03828FAFA373C9CAE7E3FCA</string>
+				<string>CEBA04A0245DA5620E609DF464D9EA54</string>
+				<string>622EC83EE2AACCCF13EFAFDA92445EEE</string>
+				<string>99A689523E3B4789AD808DF733DA8DA2</string>
+				<string>685A882496BE394C10D324AAAA5A795B</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-ContentBlocker</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockUITests-dummy.m</string>
+			<string>Target Support Files/Pods-ContentBlocker</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -474,10 +406,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>169D8F5587C39054C9D18F2331489F39</key>
+		<key>1771D9F6803DB7749CF791DA49274410</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C0DB4997C28D72ED7FFB8FD4FC914C11</string>
+			<string>4FC54A265F48BAC6BE07C0C9CF1A9A05</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -485,7 +417,7 @@
 				<key>CURRENT_PROJECT_VERSION</key>
 				<string>1</string>
 				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
+				<string>dwarf</string>
 				<key>DEFINES_MODULE</key>
 				<string>YES</string>
 				<key>DYLIB_COMPATIBILITY_VERSION</key>
@@ -499,7 +431,7 @@
 				<key>GCC_NO_COMMON_BLOCKS</key>
 				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblock/Info.plist</string>
+				<string>Target Support Files/Pods-OpenAdBlockUITests/Info.plist</string>
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -513,9 +445,9 @@
 				<key>MACH_O_TYPE</key>
 				<string>staticlib</string>
 				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblock/Pods-OpenAdblock.modulemap</string>
+				<string>Target Support Files/Pods-OpenAdBlockUITests/Pods-OpenAdBlockUITests.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
+				<string>YES</string>
 				<key>OTHER_LDFLAGS</key>
 				<string></string>
 				<key>OTHER_LIBTOOLFLAGS</key>
@@ -525,7 +457,7 @@
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
 				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
 				<key>PRODUCT_NAME</key>
-				<string>Pods_OpenAdblock</string>
+				<string>Pods_OpenAdBlockUITests</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
@@ -540,33 +472,47 @@
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>17EBCCB90378D98F68CEEDCD52C2061C</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5E9D717F3D1742ED94E2DCC246C401B1</string>
+				<string>B335EEBC8E7493DA7C1F6BF29574A457</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
 			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>1BAD44DEF822E8D665A9D581FF93E591</key>
+		<key>1C5834AEA03828FAFA373C9CAE7E3FCA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-OpenAdblock-acknowledgements.plist</string>
+			<string>Pods-ContentBlocker-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1C11BC7BCE91AA30D9E48AB6D5D5E32B</key>
+		<key>1D5646D9A75A5130EDFE0B6BB2D2E8CF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7F9E6F5E95F65CDFF329DDE059ACFE4A</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-OpenAdblock-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>1E97D647C0B9925A5E4F55F18D01D828</key>
 		<dict>
@@ -588,55 +534,20 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>200CADC60A7B35F2BC83E285C0626005</key>
+		<key>214047E17823C7014FF0726850BE2E68</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockTests.debug.xcconfig</string>
+			<string>Pods-ContentBlocker-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>26882CFA1773A5A8E791283FFDE1A518</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A5C17D79889F583232E6CF6C7F74D002</string>
-				<string>C7B36516B64570ED317B0D893911C73A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>27B431D444F5898DA5CD05AF290C9E2A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F26AD710A3C4B0F135A27411E4DE94E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>296C81C3EA5F9432171AA1C23D8A7B07</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2C510A67A645DAE630B63CFB1CFCAFAB</key>
+		<key>23401BEE68D0D89B8A45675F2BF20A2E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -645,7 +556,57 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockTests.release.xcconfig</string>
+			<string>Pods-OpenAdBlock.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>24EE245528FCD5FEF8F52480464984E9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlock.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>259A8AED96E32B1D8361FEC85C5D03C2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5AD9DD18F12EDC02542F4011625C4BA0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2892ACBE28FFC10929BDF20F4D549452</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9A937EACC2B5A1E24E9584D2025E4DD0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2A2837CD4AB95E6BD1181D461AB28126</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-ContentBlocker-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -663,18 +624,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2D92B81EB51A453AE5DA0B3128BBB653</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>fishhook</string>
-			<key>target</key>
-			<string>FD37BB3493A6350141AD4FA258676DA1</string>
-			<key>targetProxy</key>
-			<string>E7F488F890FF53CDFC2A27347E2A420A</string>
-		</dict>
-		<key>313F3B05C41B60355259EC64117F8819</key>
+		<key>2DB1D74FA76A26C7856137A56D21F9C1</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -689,10 +639,105 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>317269A49C1681CD792B09FC4F7C9578</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CF79AEA6E6326F7BEA00CA392AF38F1C</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-OpenAdBlockUITests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-OpenAdBlockUITests/Pods-OpenAdBlockUITests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_OpenAdBlockUITests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>371C23D0F25F0228FDAA9DD56F75CDDA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>17EBCCB90378D98F68CEEDCD52C2061C</string>
+			<key>buildPhases</key>
+			<array>
+				<string>50C21FDF4D237F06C5B9B73D73065D36</string>
+				<string>259A8AED96E32B1D8361FEC85C5D03C2</string>
+				<string>729C454983597E636AB1C0135BF12CC5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>D344717642A1950DF7432F730E53916C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-OpenAdBlock</string>
+			<key>productName</key>
+			<string>Pods-OpenAdBlock</string>
+			<key>productReference</key>
+			<string>9364B19E1FAC690E4AFD285CBABD8900</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
 		<key>399D32D46637C3C13E24E909958BEDE3</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>67B4C9DD3FEA6DD328426F02290E14DA</string>
+			<string>685A882496BE394C10D324AAAA5A795B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -757,16 +802,42 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>3A9ED578D692CC77BB0153256FDB265F</key>
+		<key>3A1813558F451FDA4B4DF1D4098D2BB3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BB5F71FDFBEEF58D23DA886FCEE8B6EE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3AB506DAC570BF7A6048C9D512A89F30</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5875C40C1AF98973F2162763204C630F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3B28449DA2F47246679C5315AEB8E59C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockUITests-acknowledgements.markdown</string>
+			<string>Pods-OpenAdBlockUITests-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -790,19 +861,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3CBDBE470CC704312DFB7E6AF3691C68</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>73B750DEF42E59D3E503FE7FAA5EC2E2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
 		<dict>
 			<key>children</key>
@@ -822,32 +880,6 @@
 			<string>167D382B15D57BA5DC262AFA5752D0C0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>3EE6EBF774094981EC7C6520283314B1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AA61A5D7537C0D4820D884869DF13A9D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3F26AD710A3C4B0F135A27411E4DE94E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-OpenAdblockUITests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3FA92E4CBA38CE457CED1C6B09A93DFC</key>
 		<dict>
@@ -933,42 +965,19 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>42C131408FFA26789C232056075D09E9</key>
+		<key>439E413AB0E9CAE23C5BD593E56F9FDF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>6FE52CBDAA3B10545E1B3C20D27AD565</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-ContentBlocker-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>444EC2F888005DB0E30834449B86CEA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-OpenAdblock.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46165DD9BBEF2F31C0B83994A44B0343</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ContentBlocker-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>498D30EB9BA24931BE8E1E837F3BD281</key>
 		<dict>
@@ -981,36 +990,130 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4C5D9BE329FE1A48E9A9D4DD6847E3FC</key>
+		<key>4B8CA7DEA43E53F30B8249953C38070A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockTests-acknowledgements.plist</string>
+			<string>Pods-OpenAdBlock.debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4D0C1DFFC01A0A0A4FB724964C05CF26</key>
+		<key>4D3EFDA58F3263048A932FF7C8C62606</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockUITests-acknowledgements.plist</string>
+			<string>Pods-OpenAdBlockUITests-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>50609479B2F5CF17DCF6B68C46E77BE7</key>
+		<key>4FC54A265F48BAC6BE07C0C9CF1A9A05</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockUITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50C21FDF4D237F06C5B9B73D73065D36</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>05B1601CCA3FF58A3D2535B5AB2B9C4A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>52088A37C40D5480DE4852FF286DCBAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>529C6E1EE7070A590288CA02CCECA667</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CE04863C14A26E876DF786C038B91510</string>
+				<string>CC39CC6F1ADF3F015407EDE9C0F4ED33</string>
+				<string>84337C53AF022E4168245DD98CC1EC39</string>
+				<string>D7D8075727853D592824F57D8D039648</string>
+				<string>3B28449DA2F47246679C5315AEB8E59C</string>
+				<string>0F5AF9A762D5865D96B0D4678708ACDB</string>
+				<string>4D3EFDA58F3263048A932FF7C8C62606</string>
+				<string>6E3E612F8C50AD20D564E188CC05BD9B</string>
+				<string>4FC54A265F48BAC6BE07C0C9CF1A9A05</string>
+				<string>CF79AEA6E6326F7BEA00CA392AF38F1C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-OpenAdBlockUITests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-OpenAdBlockUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5875C40C1AF98973F2162763204C630F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5AD9DD18F12EDC02542F4011625C4BA0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5E87C8A2CFAAF504C6DF00532651211E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EF4862FA56394C31BD5201A879F49839</string>
+				<string>F8ED25177DCAE751E38CFA5B67BC1478</string>
+				<string>3BB6AA93B2EC5B39D33828C1EB7EAA2A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>fishhook</string>
+			<key>path</key>
+			<string>fishhook</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5E9D717F3D1742ED94E2DCC246C401B1</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>7800799998C4FFC99D3E888F7626D5DD</string>
+			<string>4B8CA7DEA43E53F30B8249953C38070A</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1032,7 +1135,7 @@
 				<key>GCC_NO_COMMON_BLOCKS</key>
 				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblock/Info.plist</string>
+				<string>Target Support Files/Pods-OpenAdBlock/Info.plist</string>
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -1046,7 +1149,7 @@
 				<key>MACH_O_TYPE</key>
 				<string>staticlib</string>
 				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblock/Pods-OpenAdblock.modulemap</string>
+				<string>Target Support Files/Pods-OpenAdBlock/Pods-OpenAdBlock.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>YES</string>
 				<key>OTHER_LDFLAGS</key>
@@ -1058,7 +1161,7 @@
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
 				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
 				<key>PRODUCT_NAME</key>
-				<string>Pods_OpenAdblock</string>
+				<string>Pods_OpenAdBlock</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
@@ -1075,94 +1178,52 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>5083C92C1350EEB86E9780275813E2B6</key>
+		<key>5FA06E1A88474A4C5BF749F808003C63</key>
 		<dict>
 			<key>fileRef</key>
-			<string>14E237116D66C3E7D577175BAE359A32</string>
+			<string>7379A1F59F2A0E6FF8ED8F5D7999DE8C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>55CD572BE13E6FA8757993F8B29AFF19</key>
+		<key>6027B90C2158AD503E134214CB0A3FC0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockTests-resources.sh</string>
+			<string>Pods-OpenAdBlockTests-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>56009A2598FEDC06DFD3D9A6BDC6A877</key>
+		<key>622EC83EE2AACCCF13EFAFDA92445EEE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-ContentBlocker-dummy.m</string>
+			<string>Pods-ContentBlocker-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5B1A514E3185A65E9CA415089FF64348</key>
+		<key>64610B96660AEE858AA2665EEAB7A769</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-OpenAdblockTests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C7B0D8405610934F45E0B9E939F9D2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-OpenAdblockUITests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E847CF42FBE671D3728620E43BEFC43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-OpenAdblockUITests-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E87C8A2CFAAF504C6DF00532651211E</key>
-		<dict>
-			<key>children</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>EF4862FA56394C31BD5201A879F49839</string>
-				<string>F8ED25177DCAE751E38CFA5B67BC1478</string>
-				<string>3BB6AA93B2EC5B39D33828C1EB7EAA2A</string>
+				<string>1771D9F6803DB7749CF791DA49274410</string>
+				<string>317269A49C1681CD792B09FC4F7C9578</string>
 			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>fishhook</string>
-			<key>path</key>
-			<string>fishhook</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>661EC1CE6EF6920E6A80BFC83F3632BE</key>
 		<dict>
@@ -1177,7 +1238,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>67B4C9DD3FEA6DD328426F02290E14DA</key>
+		<key>685A882496BE394C10D324AAAA5A795B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1190,7 +1251,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6AB2726A6851B426585FD656959B95E9</key>
+		<key>69A3270B6CC15D2E378EE1028041B74A</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -1199,40 +1260,50 @@
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods_OpenAdblockTests.framework</string>
+			<string>Pods_OpenAdBlockTests.framework</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockTests.framework</string>
+			<string>Pods-OpenAdBlockTests.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>6CA922F3803059048FE4B83C48341D80</key>
+		<key>6A36D2BE8F89267E4550EA8B042FD510</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>50609479B2F5CF17DCF6B68C46E77BE7</string>
-				<string>169D8F5587C39054C9D18F2331489F39</string>
+				<string>0120BDF266AD30360A395F0541D02AD7</string>
+				<string>24EE245528FCD5FEF8F52480464984E9</string>
+				<string>C51B64EB0BC52E38221FD66C9EC6237E</string>
+				<string>9348BCF6392AE0E86994AF217C4FCAE9</string>
+				<string>7F0C64B3E0175466851EE2AD2D808238</string>
+				<string>73E835379ABA2C0E03B697195CA87048</string>
+				<string>7A1197B03F326E329EB1B0CDB22FEFA6</string>
+				<string>6FE52CBDAA3B10545E1B3C20D27AD565</string>
+				<string>4B8CA7DEA43E53F30B8249953C38070A</string>
+				<string>23401BEE68D0D89B8A45675F2BF20A2E</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>6D18BF19968170D7A0ED75FA9B5239D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-OpenAdBlock</string>
 			<key>path</key>
-			<string>Pods-ContentBlocker-acknowledgements.plist</string>
+			<string>Target Support Files/Pods-OpenAdBlock</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6E5B1FB2EC293197929CE5FF65862364</key>
+		<key>6ABFC5D844157340CEEBB253AC6C578B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>FD37BB3493A6350141AD4FA258676DA1</string>
+			<key>remoteInfo</key>
+			<string>fishhook</string>
+		</dict>
+		<key>6E3E612F8C50AD20D564E188CC05BD9B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1241,54 +1312,112 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockTests-umbrella.h</string>
+			<string>Pods-OpenAdBlockUITests-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6EF72D927D39426FBF2385E5B4F738B9</key>
+		<key>6E902B4A4476BF67C676E492F40FA736</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>C403E930092EC985966016638E5B55DF</string>
-				<string>444EC2F888005DB0E30834449B86CEA4</string>
-				<string>1C11BC7BCE91AA30D9E48AB6D5D5E32B</string>
-				<string>1BAD44DEF822E8D665A9D581FF93E591</string>
-				<string>08230DDEA34D66BD237B094B0B59DFC0</string>
-				<string>8B4B7909F4A8188003091D08CC5B0AC4</string>
-				<string>D3A29E22F0E8296371E5EB8A4FBD0BD0</string>
-				<string>0B81EE69904182B4455E35876BB928F5</string>
-				<string>7800799998C4FFC99D3E888F7626D5DD</string>
-				<string>C0DB4997C28D72ED7FFB8FD4FC914C11</string>
+				<string>71175863CC303455B486D90DA7E95E6A</string>
+				<string>F7DF7C54D1B155BF14A5CAF4FCFF81FA</string>
 			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-OpenAdblock</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-OpenAdblock</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>71876A9EF02AA0C61FF5DFB3ECB91642</key>
+		<key>6FE52CBDAA3B10545E1B3C20D27AD565</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Pods-OpenAdBlock-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>72AAEE035A30AE2E73B5FDFEC4E0349A</key>
+		<key>71175863CC303455B486D90DA7E95E6A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>115E98E869D9E59861AEE9D119AFA5B0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-OpenAdBlockTests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-OpenAdBlockTests/Pods-OpenAdBlockTests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_OpenAdBlockTests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>729C454983597E636AB1C0135BF12CC5</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>27B431D444F5898DA5CD05AF290C9E2A</string>
+				<string>439E413AB0E9CAE23C5BD593E56F9FDF</string>
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
@@ -1308,43 +1437,44 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>73B750DEF42E59D3E503FE7FAA5EC2E2</key>
+		<key>7379A1F59F2A0E6FF8ED8F5D7999DE8C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>0B81EE69904182B4455E35876BB928F5</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>76B15A3E126E1E78F932BC5FD8F1FD92</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7EEB44CFBF7399F84DB80B81C9E6B9DE</string>
-				<string>8472CAAC3BF173B470E347EF43C1F514</string>
-				<string>42C131408FFA26789C232056075D09E9</string>
-				<string>6D18BF19968170D7A0ED75FA9B5239D9</string>
-				<string>56009A2598FEDC06DFD3D9A6BDC6A877</string>
-				<string>FD30F3F9E8F261CA25867EC331FF6214</string>
-				<string>8E57E934E80FE93389AA98DFB033D241</string>
-				<string>46165DD9BBEF2F31C0B83994A44B0343</string>
-				<string>0C976A2E5EBFBD0A2FE1BAC00DF54AA5</string>
-				<string>67B4C9DD3FEA6DD328426F02290E14DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-ContentBlocker</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Target Support Files/Pods-ContentBlocker</string>
+			<string>Pods-OpenAdBlockTests-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>73E835379ABA2C0E03B697195CA87048</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlock-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7705AAF2B9D5CFD5C793B69E14E555B7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>81F574A69FF411C3922EB06341A83935</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>7769A030CB5A795B942BDC985646DB31</key>
 		<dict>
@@ -1360,29 +1490,16 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>77F2EF98BF0AF402F1A4532B216CFCB8</key>
+		<key>7A1197B03F326E329EB1B0CDB22FEFA6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockUITests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7800799998C4FFC99D3E888F7626D5DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-OpenAdblock.debug.xcconfig</string>
+			<string>Pods-OpenAdBlock-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1400,106 +1517,6 @@
 				</array>
 			</dict>
 		</dict>
-		<key>7B7950CB0A269CC03639368509965E7C</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C05D59A346262CE8D24A006198412528</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F4DB48B6E036CDF827275B1CDD4283DF</string>
-				<string>3EE6EBF774094981EC7C6520283314B1</string>
-				<string>72AAEE035A30AE2E73B5FDFEC4E0349A</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-OpenAdblockUITests</string>
-			<key>productName</key>
-			<string>Pods-OpenAdblockUITests</string>
-			<key>productReference</key>
-			<string>AAB0D0D1C9D556035214CD689010A5EF</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7BFC37079D65BF5AF8B0FD452E7FB84B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5C7B0D8405610934F45E0B9E939F9D2A</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockUITests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockUITests/Pods-OpenAdblockUITests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_OpenAdblockUITests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7D8212F59A2EF31CBDD81228B261623F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
 			<key>children</key>
@@ -1507,8 +1524,8 @@
 				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
 				<string>736534D55C0690D4DF747826D97D64BD</string>
-				<string>FB200FD35FBF6DD15274E34634DEF38B</string>
-				<string>A67546A2BC8DACF9B8D75D52A1CCDA88</string>
+				<string>D08D9EE4362C77BCE8E8206FDCFF1EA3</string>
+				<string>84BFDF3EC5828BB5C428D1D1D2075623</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1528,92 +1545,69 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>7DFB3CCBB524D88806441355197DD217</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6CA922F3803059048FE4B83C48341D80</string>
-			<key>buildPhases</key>
-			<array>
-				<string>0F69208D91574C744C07F76622A07C98</string>
-				<string>B2D3E2B8F6B49F38DAE8DD4C2A079D0F</string>
-				<string>3CBDBE470CC704312DFB7E6AF3691C68</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>2D92B81EB51A453AE5DA0B3128BBB653</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-OpenAdblock</string>
-			<key>productName</key>
-			<string>Pods-OpenAdblock</string>
-			<key>productReference</key>
-			<string>0C3EDC213F062A4B92C03D9A58025F69</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7EEB44CFBF7399F84DB80B81C9E6B9DE</key>
+		<key>7F0C64B3E0175466851EE2AD2D808238</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Pods-OpenAdBlock-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7EF424175E38670C3FBC77F6F89524B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-OpenAdblockTests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>80CA32B627B3E8CF446BA070CFB915F9</key>
+		<key>7F9E6F5E95F65CDFF329DDE059ACFE4A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>08230DDEA34D66BD237B094B0B59DFC0</string>
+			<string>3B28449DA2F47246679C5315AEB8E59C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>8193A2405D84646662A9CF79E37C12CA</key>
+		<key>81F574A69FF411C3922EB06341A83935</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>82138B89FB3FB7C99954E5FAED64D584</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>8264F86329B7B81F721B477852630C23</string>
+				<string>5FA06E1A88474A4C5BF749F808003C63</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>8264F86329B7B81F721B477852630C23</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB36A52CBACFD4199EC02DB2FB5A978E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8472CAAC3BF173B470E347EF43C1F514</key>
+		<key>830DE11684DEE9925E43C3165B2E99CD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-ContentBlocker.modulemap</string>
+			<string>Pods-OpenAdBlockTests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84337C53AF022E4168245DD98CC1EC39</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockUITests-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1624,31 +1618,57 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>87B15F819D436953F404630B1A2B390B</key>
+		<key>84BFDF3EC5828BB5C428D1D1D2075623</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>14F9D5BA0DFA8F1AD9B4362FE1B6B425</string>
+				<string>6A36D2BE8F89267E4550EA8B042FD510</string>
+				<string>DEE4E8F548AED4C7CA4EC7AD33DBF7F4</string>
+				<string>529C6E1EE7070A590288CA02CCECA667</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84EB5B952637C2AECF314D0EC4FAF7A3</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>64610B96660AEE858AA2665EEAB7A769</string>
+			<key>buildPhases</key>
+			<array>
+				<string>1D5646D9A75A5130EDFE0B6BB2D2E8CF</string>
+				<string>7705AAF2B9D5CFD5C793B69E14E555B7</string>
+				<string>2892ACBE28FFC10929BDF20F4D549452</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-OpenAdBlockUITests</string>
+			<key>productName</key>
+			<string>Pods-OpenAdBlockUITests</string>
+			<key>productReference</key>
+			<string>C433550F9BA6A8EEAE3B8D121F0B5FD2</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>87D95335D4B2F7C73404E1E603BD2531</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockUITests-resources.sh</string>
+			<string>Pods-OpenAdBlockTests.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>888A8F34E0097FFCE816891C7BFEB2B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E78714015B380B368829E401EFFE793C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>8A379F5AA594766CB16707BBA9D8AAC7</key>
 		<dict>
@@ -1663,31 +1683,33 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>8B4B7909F4A8188003091D08CC5B0AC4</key>
+		<key>9348BCF6392AE0E86994AF217C4FCAE9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Pods-OpenAdblock-frameworks.sh</string>
+			<string>Pods-OpenAdBlock-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8E57E934E80FE93389AA98DFB033D241</key>
+		<key>9364B19E1FAC690E4AFD285CBABD8900</key>
 		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>1</string>
+			<string>0</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<key>name</key>
+			<string>Pods_OpenAdBlock.framework</string>
 			<key>path</key>
-			<string>Pods-ContentBlocker-resources.sh</string>
+			<string>Pods-OpenAdBlock.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
 		<dict>
@@ -1708,6 +1730,33 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
+		<key>99A689523E3B4789AD808DF733DA8DA2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-ContentBlocker.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A937EACC2B5A1E24E9584D2025E4DD0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6E3E612F8C50AD20D564E188CC05BD9B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
 		<key>9AD28895D119F03F07B50E43B2F3BEC6</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1720,6 +1769,17 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>9CFFF50F5B46DE1F3CD3A3632D86CC1F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-ContentBlocker.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9FDCCCBDD5B674F79B1719FA6CB587CF</key>
 		<dict>
@@ -1734,149 +1794,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>A5C17D79889F583232E6CF6C7F74D002</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>200CADC60A7B35F2BC83E285C0626005</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockTests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>10.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockTests/Pods-OpenAdblockTests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_OpenAdblockTests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A67546A2BC8DACF9B8D75D52A1CCDA88</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>76B15A3E126E1E78F932BC5FD8F1FD92</string>
-				<string>6EF72D927D39426FBF2385E5B4F738B9</string>
-				<string>EBE24A6DB4B6BDFC48A7ADDBD9B494CC</string>
-				<string>AB0F59570F34C6E60539B2C308B8F2C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA61A5D7537C0D4820D884869DF13A9D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AAB0D0D1C9D556035214CD689010A5EF</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_OpenAdblockUITests.framework</string>
-			<key>path</key>
-			<string>Pods-OpenAdblockUITests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>AB0F59570F34C6E60539B2C308B8F2C8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>71876A9EF02AA0C61FF5DFB3ECB91642</string>
-				<string>CDA55DF4A3EA8E1E5AF4F0BE951E6E69</string>
-				<string>3A9ED578D692CC77BB0153256FDB265F</string>
-				<string>4D0C1DFFC01A0A0A4FB724964C05CF26</string>
-				<string>14E237116D66C3E7D577175BAE359A32</string>
-				<string>5E847CF42FBE671D3728620E43BEFC43</string>
-				<string>87B15F819D436953F404630B1A2B390B</string>
-				<string>3F26AD710A3C4B0F135A27411E4DE94E</string>
-				<string>77F2EF98BF0AF402F1A4532B216CFCB8</string>
-				<string>5C7B0D8405610934F45E0B9E939F9D2A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-OpenAdblockUITests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-OpenAdblockUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AB36A52CBACFD4199EC02DB2FB5A978E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-OpenAdblockTests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AE9439C22469D35336242DD983DB5C5F</key>
 		<dict>
@@ -1956,114 +1873,23 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>B2D3E2B8F6B49F38DAE8DD4C2A079D0F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>296C81C3EA5F9432171AA1C23D8A7B07</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B471E20A8436BD046E2E370D6BB134D5</key>
+		<key>AFD4850720BD211F2F460AC22320DA68</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockTests-acknowledgements.markdown</string>
+			<string>Pods-OpenAdBlockTests-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BE47659483565894832B2902E2AF37F0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>26882CFA1773A5A8E791283FFDE1A518</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8193A2405D84646662A9CF79E37C12CA</string>
-				<string>00826B7F846A3940DCECC070EBF27BB4</string>
-				<string>888A8F34E0097FFCE816891C7BFEB2B8</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-OpenAdblockTests</string>
-			<key>productName</key>
-			<string>Pods-OpenAdblockTests</string>
-			<key>productReference</key>
-			<string>6AB2726A6851B426585FD656959B95E9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>C05D59A346262CE8D24A006198412528</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0F4DAC493E080329BBF2527D78520986</string>
-				<string>7BFC37079D65BF5AF8B0FD452E7FB84B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C0DB4997C28D72ED7FFB8FD4FC914C11</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-OpenAdblock.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C403E930092EC985966016638E5B55DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7B36516B64570ED317B0D893911C73A</key>
+		<key>B335EEBC8E7493DA7C1F6BF29574A457</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>2C510A67A645DAE630B63CFB1CFCAFAB</string>
+			<string>23401BEE68D0D89B8A45675F2BF20A2E</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2085,7 +1911,7 @@
 				<key>GCC_NO_COMMON_BLOCKS</key>
 				<string>YES</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockTests/Info.plist</string>
+				<string>Target Support Files/Pods-OpenAdBlock/Info.plist</string>
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -2099,7 +1925,7 @@
 				<key>MACH_O_TYPE</key>
 				<string>staticlib</string>
 				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-OpenAdblockTests/Pods-OpenAdblockTests.modulemap</string>
+				<string>Target Support Files/Pods-OpenAdBlock/Pods-OpenAdBlock.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>NO</string>
 				<key>OTHER_LDFLAGS</key>
@@ -2111,7 +1937,7 @@
 				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
 				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
 				<key>PRODUCT_NAME</key>
-				<string>Pods_OpenAdblockTests</string>
+				<string>Pods_OpenAdBlock</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
@@ -2128,14 +1954,149 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>CDA55DF4A3EA8E1E5AF4F0BE951E6E69</key>
+		<key>B5D5935E204D44E23ED9BA485C38716C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-ContentBlocker-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB5F71FDFBEEF58D23DA886FCEE8B6EE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6027B90C2158AD503E134214CB0A3FC0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>BC261DC76F7D808AB23DFBE481C15B73</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C0DA3D2E4A0BCC074FEDB45A0427A529</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_ContentBlocker.framework</string>
+			<key>path</key>
+			<string>Pods-ContentBlocker.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C433550F9BA6A8EEAE3B8D121F0B5FD2</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_OpenAdBlockUITests.framework</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockUITests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C51B64EB0BC52E38221FD66C9EC6237E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlock-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C6534469722FBFC57864A21734DA4CC2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockTests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC39CC6F1ADF3F015407EDE9C0F4ED33</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>path</key>
-			<string>Pods-OpenAdblockUITests.modulemap</string>
+			<string>Pods-OpenAdBlockUITests.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CE04863C14A26E876DF786C038B91510</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEBA04A0245DA5620E609DF464D9EA54</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-ContentBlocker-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2152,6 +2113,36 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
+		<key>CF79AEA6E6326F7BEA00CA392AF38F1C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D08D9EE4362C77BCE8E8206FDCFF1EA3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2DB1D74FA76A26C7856137A56D21F9C1</string>
+				<string>C0DA3D2E4A0BCC074FEDB45A0427A529</string>
+				<string>9364B19E1FAC690E4AFD285CBABD8900</string>
+				<string>69A3270B6CC15D2E378EE1028041B74A</string>
+				<string>C433550F9BA6A8EEAE3B8D121F0B5FD2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D1775E8F738EEEA857B308C9D571D5D5</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -2165,18 +2156,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D3A29E22F0E8296371E5EB8A4FBD0BD0</key>
+		<key>D344717642A1950DF7432F730E53916C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-OpenAdblock-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>fishhook</string>
+			<key>target</key>
+			<string>FD37BB3493A6350141AD4FA258676DA1</string>
+			<key>targetProxy</key>
+			<string>6ABFC5D844157340CEEBB253AC6C578B</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -2204,7 +2193,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>FB200FD35FBF6DD15274E34634DEF38B</string>
+			<string>D08D9EE4362C77BCE8E8206FDCFF1EA3</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -2215,10 +2204,47 @@
 			<array>
 				<string>FD37BB3493A6350141AD4FA258676DA1</string>
 				<string>09AB3A063BFCA561B6CB92B9D21D8A7D</string>
-				<string>7DFB3CCBB524D88806441355197DD217</string>
-				<string>BE47659483565894832B2902E2AF37F0</string>
-				<string>7B7950CB0A269CC03639368509965E7C</string>
+				<string>371C23D0F25F0228FDAA9DD56F75CDDA</string>
+				<string>080DEDF2B000BCF9643F04091A61FC14</string>
+				<string>84EB5B952637C2AECF314D0EC4FAF7A3</string>
 			</array>
+		</dict>
+		<key>D7D8075727853D592824F57D8D039648</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-OpenAdBlockUITests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DEE4E8F548AED4C7CA4EC7AD33DBF7F4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC261DC76F7D808AB23DFBE481C15B73</string>
+				<string>87D95335D4B2F7C73404E1E603BD2531</string>
+				<string>0AC75188622C3D0364BC81BEBA780525</string>
+				<string>C6534469722FBFC57864A21734DA4CC2</string>
+				<string>7379A1F59F2A0E6FF8ED8F5D7999DE8C</string>
+				<string>AFD4850720BD211F2F460AC22320DA68</string>
+				<string>830DE11684DEE9925E43C3165B2E99CD</string>
+				<string>6027B90C2158AD503E134214CB0A3FC0</string>
+				<string>115E98E869D9E59861AEE9D119AFA5B0</string>
+				<string>52088A37C40D5480DE4852FF286DCBAF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-OpenAdBlockTests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-OpenAdBlockTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>E2BF6F22F2184626400E09CDE6A3C611</key>
 		<dict>
@@ -2234,58 +2260,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>E78714015B380B368829E401EFFE793C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E5B1FB2EC293197929CE5FF65862364</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E7F488F890FF53CDFC2A27347E2A420A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>FD37BB3493A6350141AD4FA258676DA1</string>
-			<key>remoteInfo</key>
-			<string>fishhook</string>
-		</dict>
-		<key>EBE24A6DB4B6BDFC48A7ADDBD9B494CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ECF8B39F0B712D048FC3024D3D7BB417</string>
-				<string>7EF424175E38670C3FBC77F6F89524B8</string>
-				<string>B471E20A8436BD046E2E370D6BB134D5</string>
-				<string>4C5D9BE329FE1A48E9A9D4DD6847E3FC</string>
-				<string>AB36A52CBACFD4199EC02DB2FB5A978E</string>
-				<string>5B1A514E3185A65E9CA415089FF64348</string>
-				<string>55CD572BE13E6FA8757993F8B29AFF19</string>
-				<string>6E5B1FB2EC293197929CE5FF65862364</string>
-				<string>200CADC60A7B35F2BC83E285C0626005</string>
-				<string>2C510A67A645DAE630B63CFB1CFCAFAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-OpenAdblockTests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-OpenAdblockTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECF8B39F0B712D048FC3024D3D7BB417</key>
+		<key>EC23FC50C275CAFCB43C7414AC94B576</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2309,25 +2284,80 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F4DB48B6E036CDF827275B1CDD4283DF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5083C92C1350EEB86E9780275813E2B6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>F7DB688E88AF04222F27C5DE2A545321</key>
 		<dict>
 			<key>fileRef</key>
-			<string>56009A2598FEDC06DFD3D9A6BDC6A877</string>
+			<string>2A2837CD4AB95E6BD1181D461AB28126</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>F7DF7C54D1B155BF14A5CAF4FCFF81FA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>52088A37C40D5480DE4852FF286DCBAF</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-OpenAdBlockTests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-OpenAdBlockTests/Pods-OpenAdBlockTests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_OpenAdBlockTests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>F8ED25177DCAE751E38CFA5B67BC1478</key>
 		<dict>
@@ -2339,36 +2369,6 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>fishhook.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB200FD35FBF6DD15274E34634DEF38B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>313F3B05C41B60355259EC64117F8819</string>
-				<string>0ABFB99616BA67737C85DCCCE17CFD4F</string>
-				<string>0C3EDC213F062A4B92C03D9A58025F69</string>
-				<string>6AB2726A6851B426585FD656959B95E9</string>
-				<string>AAB0D0D1C9D556035214CD689010A5EF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD30F3F9E8F261CA25867EC331FF6214</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ContentBlocker-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2393,7 +2393,7 @@
 			<key>productName</key>
 			<string>fishhook</string>
 			<key>productReference</key>
-			<string>313F3B05C41B60355259EC64117F8819</string>
+			<string>2DB1D74FA76A26C7856137A56D21F9C1</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>

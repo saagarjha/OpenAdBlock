@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:OpenAdblock.xcodeproj">
+      location = "group:/Users/saagarjha/Git/OpenAdBlock/OpenAdBlock/OpenAdBlock.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OpenAdBlock.xcodeproj">
    </FileRef>
 </Workspace>

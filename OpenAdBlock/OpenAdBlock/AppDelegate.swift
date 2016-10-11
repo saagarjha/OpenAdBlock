@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  OpenAdblock
+//  OpenAdBlock
 //
 //  Created by Saagar Jha on 10/10/16.
 //  Copyright © 2016 Saagar Jha. All rights reserved.

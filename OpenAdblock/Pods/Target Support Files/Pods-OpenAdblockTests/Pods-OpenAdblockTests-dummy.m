@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_OpenAdblockTests : NSObject
+@interface PodsDummy_Pods_OpenAdBlockTests : NSObject
 @end
-@implementation PodsDummy_Pods_OpenAdblockTests
+@implementation PodsDummy_Pods_OpenAdBlockTests
 @end

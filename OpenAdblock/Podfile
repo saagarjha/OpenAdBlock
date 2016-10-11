@@ -9,19 +9,19 @@ target 'ContentBlocker' do
 
 end
 
-target 'OpenAdblock' do
+target 'OpenAdBlock' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for OpenAdblock
+  # Pods for OpenAdBlock
   pod 'fishhook'
 
-  target 'OpenAdblockTests' do
+  target 'OpenAdBlockTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'OpenAdblockUITests' do
+  target 'OpenAdBlockUITests' do
     inherit! :search_paths
     # Pods for testing
   end

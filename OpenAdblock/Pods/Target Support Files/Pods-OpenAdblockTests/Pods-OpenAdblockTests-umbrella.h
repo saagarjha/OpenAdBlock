@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
 
-FOUNDATION_EXPORT double Pods_OpenAdblockTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_OpenAdblockTestsVersionString[];
+FOUNDATION_EXPORT double Pods_OpenAdBlockTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_OpenAdBlockTestsVersionString[];
 

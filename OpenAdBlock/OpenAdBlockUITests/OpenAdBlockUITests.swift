@@ -1,6 +1,6 @@
 //
-//  OpenAdblockUITests.swift
-//  OpenAdblockUITests
+//  OpenAdBlockUITests.swift
+//  OpenAdBlockUITests
 //
 //  Created by Saagar Jha on 7/22/16.
 //  Copyright © 2016 Saagar Jha. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class OpenAdblockUITests: XCTestCase {
+class OpenAdBlockUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

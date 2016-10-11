@@ -12,11 +12,11 @@
 @interface NSExtension : NSObject
 @end
 
-@interface NSExtension (OpenAdblock)
-@property (nonatomic, copy) NSString *identifier;
+@interface NSExtension (OpenAdBlock)
+	@property (nonatomic, copy) NSString *identifier;
 @end
 
-@interface SFContentBlockerManager (OpenAdblock)
+@interface SFContentBlockerManager (OpenAdBlock)
 + (SFContentBlockerManager*)sharedManager;
 - (void)_beginContentBlockerDiscovery;
 - (void)_loadContentBlockerWithIdentifier:(NSString *)arg1 completionHandler:(void(^)(NSError *))arg2;

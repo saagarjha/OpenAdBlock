@@ -1,6 +1,6 @@
 //
 //  OABGestaltFixer.m
-//  OpenAdblock
+//  OpenAdBlock
 //
 //  Created by Saagar Jha on 10/10/16.
 //  Copyright © 2016 Saagar Jha. All rights reserved.
@@ -9,7 +9,7 @@
 #import <dlfcn.h>
 #import "fishhook.h"
 #import <Foundation/Foundation.h>
-#import "OpenAdblock-Bridging-Header.h"
+#import "OpenAdBlock-Bridging-Header.h"
 
 @implementation OABGestaltFixer
 
@@ -20,7 +20,7 @@ static BOOL OABGetBoolAnswer(NSString *question) {
 
 + (void)fixGestalt {
 	OGGetBoolAnswer = dlsym(dlopen("/usr/lib/libMobileGestalt.dylib", RTLD_LAZY), "MGGetBoolAnswer");
-	rebind_symbols((struct rebinding[1]){{"MGGetBoolAnswer", OABGetBoolAnswer}}, 1);
+	rebind_symbols((struct rebinding[1]) {{"MGGetBoolAnswer", OABGetBoolAnswer}}, 1);
 }
 
 @end
