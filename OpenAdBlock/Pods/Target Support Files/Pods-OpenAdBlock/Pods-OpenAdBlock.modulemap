@@ -1,6 +1,0 @@
-framework module Pods_OpenAdBlock {
-  umbrella header "Pods-OpenAdBlock-umbrella.h"
-
-  export *
-  module * { export * }
-}
