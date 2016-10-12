@@ -1,38 +1,18 @@
-# OpenAdBlock 
+# Open AdBlock [![Build Status](https://travis-ci.org/saagarjha/OpenAdblock.svg?branch=master)](https://travis-ci.org/saagarjha/OpenAdblock) [![license](https://img.shields.io/github/license/saagarjha/OpenAdBlock.svg)](http://github.com/saagarjha/OpenAdBlock) [![Gitter](https://img.shields.io/gitter/room/saagarjha/OpenAdBlock.svg)](https://gitter.im/saagarjha/OpenAdBlock)
+Open AdBlock is a free and open source content blocker for iOS that has been written from the ground up to support both 32- and 64-bit devices.
 
-<div align="center"><img src ="http://i.imgur.com/4sa7h7D.png width="256" heigth="256"" /></div>
+## How does it work?
+As you may be aware, Apple blocked the ability to load content blockers for 32-bit devices (those with a A6 chip or older) in a late developer beta of iOS 9. Open AdBlock circumvents this restriction by redirecting Apple's loading checks and making them succeed, using Facebook's excellent [fishhook](https://github.com/facebook/fishhook) library. Once the verification is bypassed, Open AdBlock simply uses private `SafariServices` APIs to load and enable the extension. Unfortunately, this makes it impossible for Open AdBlock to be available on the App Store–if you'd like to try it out, you'll have to build it youself.
 
-<p align="center">
-<a href="http://opensource.org/licenses/Apache-2.0">
-<img src="https://img.shields.io/hexpm/l/plug.svg" alt="npm version">
-</a>
-<a href="#">
-<img src="https://img.shields.io/badge/iOS-9-yellow.svg" alt="build status">
-</a>
-<a href="#">
-<img src="https://img.shields.io/badge/iTunes%20Connect-Awaiting%20iOS%209%20launch-green.svg" alt="dependency status">
-</a>
-</p>
-This is the repo for [Open Adblock](http://OpenAdBlock.org) for iOS. It is a simple app that uses the new feature in iOS 9 called content blocking in Safari. We want to build the best adblock. In order to do so, it must be free and open source. Any help would be appreciated.
-If you wish to join the chat room, you can so here [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/saagarjha/OpenAdBlock?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+## Contributors
+A shoutout to those who helped work on Open AdBlock, back when it was released:
+ - Justin Leger ([@jusleg](http://github.com/jusleg))  
+ - Martin Turek ([@MrSp0ck](http://github.com/MrSp0ck))  
+ - Jeremy Gillespie ([@jeremyskateboard](http://github.com/jeremyskateboard))  
+ - Nicolas Da Mutten ([@cleverer](http://github.com/cleverer))  
+ - Jason Piper ([@Xaositek](http://github.com/Xaositek))  
 
---------------
-### To-Do:
- - Improve GUI and fix bugs
- - Improve README
- 
----------
-
-### Contributors:
- - Justin Leger ([@jusleg](http://github.com/jusleg))
- - Saagar Jha ([@saagarjha](http://github.com/saagarjha))  
- - Martin Turek ([@MrSp0ck](http://github.com/MrSp0ck))
- - Jeremy Gillespie ([@jeremyskateboard](http://github.com/jeremyskateboard))
- - Nicolas Da Mutten ([@cleverer](http://github.com/cleverer))
- - Jason Piper ([@Xaositek](http://github.com/Xaositek))
-
------------
-
+## TODO: update installation steps
 ### How to install the app (works for iPhone 5 and 5c!)
 Since we haven't released OpenAdBlock to the App Store yet, here's how to install the app at the moment. Keep in mind you will have to make a 3.6 GB download and have about 8GB of free space on your HD.
 
