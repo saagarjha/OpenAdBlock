@@ -20,7 +20,7 @@
 + (SFContentBlockerManager*)sharedManager;
 - (void)_beginContentBlockerDiscovery;
 - (void)_loadContentBlockerWithIdentifier:(NSString *)arg1 completionHandler:(void(^)(NSError *))arg2;
-- (void)extensionIsEnabled:(NSExtension *)arg1;
-- (void)setExtension:(NSExtension *)arg1 isEnabled:(_Bool)arg2;
+- (BOOL)extensionIsEnabled:(NSExtension *)arg1;
+- (void)setExtension:(NSExtension *)arg1 isEnabled:(BOOL)arg2;
 - (NSArray*)extensions;
 @end

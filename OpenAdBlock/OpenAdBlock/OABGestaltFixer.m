@@ -15,7 +15,7 @@
 
 static BOOL (*OGGetBoolAnswer)(NSString *question);
 static BOOL OABGetBoolAnswer(NSString *question) {
-	return YES;//[question isEqual:@"s+gaKNe68Gs3PfqKrZhi1w"] ? YES : OGGetBoolAnswer(question);
+	return [question isEqual:@"s+gaKNe68Gs3PfqKrZhi1w"] ? YES : OGGetBoolAnswer(question);
 }
 
 + (void)fixGestalt {
