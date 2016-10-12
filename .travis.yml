@@ -1,0 +1,4 @@
+language: objective-c
+osx_image: xcode8
+
+script: cd OpenAdBlock; pod install && xcodebuild -project OpenAdBlock.xcworkspace -scheme OpenAdBlock build -destination "platform=iOS Simulator,name=iPhone 7"
