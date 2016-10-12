@@ -1,4 +1,4 @@
-# Open AdBlock [![Build Status](https://travis-ci.org/saagarjha/OpenAdblock.svg?branch=master)](https://travis-ci.org/saagarjha/OpenAdblock) [![license](https://img.shields.io/github/license/saagarjha/OpenAdBlock.svg)](http://github.com/saagarjha/OpenAdBlock) [![Gitter](https://img.shields.io/gitter/room/saagarjha/OpenAdBlock.svg)](https://gitter.im/saagarjha/OpenAdBlock)
+# Open AdBlock [![Build Status](https://travis-ci.org/saagarjha/OpenAdBlock.svg?branch=master)](https://travis-ci.org/saagarjha/OpenAdBlock) [![license](https://img.shields.io/github/license/saagarjha/OpenAdBlock.svg)](http://github.com/saagarjha/OpenAdBlock) [![Gitter](https://img.shields.io/gitter/room/saagarjha/OpenAdBlock.svg)](https://gitter.im/saagarjha/OpenAdBlock)
 Open AdBlock is a free and open source content blocker for iOS that has been written from the ground up to support both 32- and 64-bit devices.
 
 ## How does it work?
